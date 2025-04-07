@@ -61,7 +61,7 @@ def login():
     cursor.execute("""
         SELECT id, username, email, is_active FROM users
         WHERE email = %s AND password_hash = %s
-    """, (email, hash_password(password)))
+    """, (email, password))
     user = cursor.fetchone()
 
     if not user:
