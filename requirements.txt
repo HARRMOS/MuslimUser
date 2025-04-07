@@ -1,2 +1,5 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+aiomysql==0.1.1
+mysql-connector-python==8.0.33
 flask
-mysql-connector-python
