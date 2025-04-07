@@ -1,4 +1,3 @@
-fastapi==0.100.0
-gunicorn
-aiomysql==0.1.1
+Flask==2.3.2
 mysql-connector-python==8.0.33
+gunicorn==20.1.0
